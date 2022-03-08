@@ -1,4 +1,4 @@
-import { GetServerSideProps } from 'next'
+import { GetStaticProps } from 'next'
 import Head from 'next/head'
 
 import { stripe } from '../services/stripe'
@@ -12,6 +12,8 @@ interface IHomeProps {
     amount: number
   }
 }
+
+const DAY_IN_SECONDS = 60 * 60 * 24 // 24 hours
 
 export default function Home({ product }: IHomeProps) {
   return (
@@ -42,7 +44,7 @@ export default function Home({ product }: IHomeProps) {
   )
 }
 
-export const getServerSideProps: GetServerSideProps = async () => {
+export const getStaticProps: GetStaticProps = async () => {
   const price = await stripe.prices.retrieve(
     String(process.env.STRIPE_SUBSCRIPTION_PRICE)
   )
@@ -58,6 +60,7 @@ export const getServerSideProps: GetServerSideProps = async () => {
   return {
     props: {
       product
-    }
+    },
+    revalidate: DAY_IN_SECONDS
   }
 }
