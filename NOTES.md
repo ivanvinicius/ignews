@@ -1,11 +1,11 @@
 ### Notas de ajuda
 
-1. Pasta Public
+1 Pasta Public
 Onde as imagens e o favicon devem estar. Para carregar imagens dentro do projeto
 basta indicar o seguinte caminho no atríbuto src da img da seguinte forma:
 /images/logo.svg
 
-2. Pasta SRC
+2 Pasta SRC
 A pasta SRC não existe de forma padrão em um projeto Nextjs, mas é possível
 cria-la para que haja uma melhor organização no código.
 
@@ -39,7 +39,7 @@ cria-la para que haja uma melhor organização no código.
   dentro do arquivo deve ser escrito no formato de CLASS, pois ainda não há um 
   suporte muito legal a FUNCTIONAL COMPONENTS.
 
-3.API ROUTES
+3 API ROUTES
 Entre a camada do browser e a camada do backend, existe a camada do Nextjs, que
 executa o servidor Node. Essa camanda permite que em alguns casos um backend
 dentro do frontend seja criado. A API ROUTE pode conter variáveis ambiente que 
@@ -60,7 +60,7 @@ mais convencionais.
   /api/[...params].ts, onde os resultados do request.query formam um objeto de 
   parâmetros. 
 
-4. Variáveis Ambiente
+4 Variáveis Ambiente
 Devem estar disponíveis apenas para a parte backend do app. Dessa forma apenas as
 API routes, os métodos Server Side Rendering e os métodos Get Static Props devem
 visualizar as informações das variáveis. Pois as mesmas não devem ficar visíveis

@@ -1,3 +1,3 @@
-### ig.news
+## ig.news
 
-#### News about the React world.
+### News about the React world.
