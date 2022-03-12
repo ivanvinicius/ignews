@@ -29,6 +29,7 @@
 		"space-before-function-paren":"off",
 		"react/prop-types": "off",
 		"react/react-in-jsx-scope": "off",
-		"react/jsx-key": "off"
+		"react/jsx-key": "off",
+		"camelcase": "off"
 	}
 }
