@@ -30,8 +30,8 @@
   </h2>
 </div>
 <div align="center">
-  <img src="github/images/ignews-home.png" alt="Logo" width="1012" height="575">  
-  <img src="github/images/ignews-preview.png" alt="Logo" width="1012" height="575">  
+  <img src="github/images/ignews-home.png" alt="Home">  
+  <img src="github/images/ignews-preview.png" alt="preview">  
 </div>
 <br/>
 
@@ -82,7 +82,7 @@ Para que seja possível fazer o download das depêdencias do projeto, recomendam
 3. Preencha os valores das variáveis ambiente com os dados que você criou nos serviços on-line. São eles:
 
 * [Stripe](https://dashboard.stripe.com/)
-* [Github](ttps://github.com)
+* [Github](https://github.com)
 * [Fauna](https://fauna.com/)
 * [Prismic](https://prismic.io/)
 
@@ -109,8 +109,8 @@ stripe listen --forward-to localhost:3000/api/webhooks
 
 <br/>
 
-<strong align="center">A estabilidade não existe. - Flavio Augusto</strong>
+<h3 align="center"><a href="#top">Voltar ao Início</a></h3>
 
 <br/>
 
-<h3 align="center"><a href="#top">Voltar ao Início ⬆</a></h3>
+<p align="right">Estabilidade não existe - Flavio Augusto</p>
