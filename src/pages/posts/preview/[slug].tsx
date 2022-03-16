@@ -83,7 +83,8 @@ export default function PostPreview({ post }: IPostPreviewProps) {
 
   fallback as false
   When the page content was not generate as static for the first time, the
-  applicaton will return a status code 404, nothing else.
+  applicaton will return a status code 404, nothing else. Usually used when a
+  page is static forever.
 
   fallback as blocking
   Generate the page content using server side redering

@@ -1,8 +1,8 @@
 <div id="top" align="center">
   <div>
-    <img src="github/images/ignews-logo.png" alt="Logo" width="294" height="111">
+    <img src="github/images/ignews-logo.png" alt="Logo">
   </div>
-  <h4 align="center">ignews | News about the React world</h4>
+  <h4 align="center">ig.news | News about the React world.</h4>
 </div>
 
 ## Resumo
