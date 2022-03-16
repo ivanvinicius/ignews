@@ -8,10 +8,10 @@
 ## Resumo
 
   <ol>
-    <li><a href="#visão-geral-do-projeto">Visão Geral do Projeto</a></li>
-    <li><a href="#sobre-o-projeto">Sobre o Projeto</a></li>
-    <li><a href="#tecnologias-utilizadas">Tecnologias Utilizadas</a></li>
-    <li><a href="#instalação-e-utilização">Instalação e Utilização</a></li>
+    <li><a href="#visão-geral-do-projeto">Visão geral do projeto</a></li>
+    <li><a href="#sobre-o-projeto">Sobre o projeto</a></li>
+    <li><a href="#tecnologias-utilizadas">Tecnologias utilizadas</a></li>
+    <li><a href="#instalação-e-utilização">Instalação e utilização</a></li>
     <li><a href="#licença">Licença</a></li>
     <li><a href="#agradecimentos">Agradecimentos</a></li>
   </ol>
@@ -94,7 +94,6 @@ stripe listen --forward-to localhost:3000/api/webhooks
 * [Diego Fernandes - Github Profile.](https://github.com/diego3g/)
 
 <br/>
-<br/>
 <h4 align="center"><a href="#top">Voltar ao Início</a></h4>
 
-<p align="right">Estabilidade não existe - Flavio Augusto</p>
+<p align="right">"Estabilidade não existe" - Flavio Augusto</p>
