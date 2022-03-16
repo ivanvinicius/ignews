@@ -11,6 +11,7 @@
   h1 {
     font-size: 3.5rem;
     font-weight: 900;
+    color: var(--yellow-500);
   }
 
   time {
@@ -39,6 +40,32 @@
       margin: 0.5rem 0;
     }
   }
+}
 
+.contentPreview {
+  background: linear-gradient(var(--gray-100), transparent);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.continueReading {
+  margin: 4rem 0 2rem;
+  padding: 2rem;
+  border-radius: 100px;
+  text-align: center;
+  font-size: 1.25rem;
+  background-color: var(--gray-850);
+  
+  a {
+    font-weight: bold;
+    color: var(--yellow-500);
+    margin-left: 1rem;
+    transition: all 0.2s;
+
+    &:hover {
+      filter: brightness(0.8);
+      text-decoration: underline;
+    }
+  }
 
 }
