@@ -58,8 +58,13 @@ export const getServerSideProps: GetServerSideProps = async ({
   const { slug } = params
   const prismic = getPrismicClient()
 
-  if (!session) {
-    console.log('Session was not found.')
+  if (!session?.activeSubscription) {
+    return {
+      redirect: {
+        permanent: false,
+        destination: '/'
+      }
+    }
   }
 
   const response: Document<IPrismicResponseData> = await prismic.getByUID(

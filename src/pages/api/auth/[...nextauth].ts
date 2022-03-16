@@ -19,6 +19,42 @@ export default NextAuth({
   ],
 
   callbacks: {
+    async session({ session }) {
+      /** When fauna query does not find any data, it throws an error by default,
+        then we always need to put the query inside a try cath block, to treat
+        the error in best way */
+      try {
+        const userHasAnActiveSubscription = await fauna.query(
+          q.Get(
+            q.Intersection([
+              q.Match(
+                q.Index('subscription_by_user_ref'),
+                q.Select(
+                  'ref',
+                  q.Get(
+                    q.Match(
+                      q.Index('user_by_email'),
+                      q.Casefold(session.user.email)
+                    )
+                  )
+                )
+              ),
+              q.Match(q.Index('subscription_by_status'), 'active')
+            ])
+          )
+        )
+
+        return {
+          ...session,
+          activeSubscription: userHasAnActiveSubscription
+        }
+      } catch (err) {
+        return {
+          ...session,
+          activeSubscription: null
+        }
+      }
+    },
     async signIn({ user }) {
       const { email } = user
 
