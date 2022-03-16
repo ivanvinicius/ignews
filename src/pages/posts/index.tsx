@@ -7,9 +7,9 @@ import { RichText } from 'prismic-dom'
 
 import { getPrismicClient } from '../../services/prismic'
 
-import styles from './styles.module.scss'
+import styles from './posts.module.scss'
 
-type IPrismicData = {
+interface IPrismicData {
   type: string
   text: string
   spans: Array<any>
@@ -20,18 +20,18 @@ interface IPrismicResponseData {
   content: Array<IPrismicData>
 }
 
-type IPostsData = {
+interface IPostsData {
   slug: string
   title: string
   excerpt: string
   updatedAt: string
 }
 
-interface IPostProps {
+interface IPostsProps {
   posts: Array<IPostsData>
 }
 
-export default function Posts({ posts }: IPostProps) {
+export default function Posts({ posts }: IPostsProps) {
   return (
     <>
       <Head>
@@ -41,7 +41,7 @@ export default function Posts({ posts }: IPostProps) {
       <main className={styles.container}>
         <div className={styles.posts}>
           {posts.map(({ slug, title, excerpt, updatedAt }) => (
-            <Link key={slug} href="#">
+            <Link key={slug} href={`/posts/${slug}`}>
               <a>
                 <time>{updatedAt}</time>
                 <strong>{title}</strong>
