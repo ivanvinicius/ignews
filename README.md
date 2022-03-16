@@ -1,32 +1,4 @@
-<style>
-  :root {
-  --cyan-500: #61DAFB;
-  --yellow-500: #EBA417;
-  }
-
-  a { 
-    color: var(--cyan-500); 
-    transition: all 0.2s;
-  }
-
-  a:hover { 
-    filter: brightness(0.7);
-    color: var(--cyan-500); 
-    text-decoration: none
-  }  
-
-  h1, h2, h3, h4, h5 {
-    color: var(--yellow-500); 
-  }
-
-  strong {
-    display: block;
-  }
-
-</style>
-
 <div id="top"></div>
-<br/>
 <br/>
 <div align="center">
   <div>
@@ -34,11 +6,6 @@
   </div>
   <h3 align="center">ignews | News about the React world</h3>
 </div>
-
-<br/>
-
----
-
 <br/>
 
 ## Resumo
@@ -51,11 +18,6 @@
     <li><a href="#licença">Licença</a></li>
     <li><a href="#agradecimentos">Agradecimentos</a></li>
   </ol>
-
-<br/>
-
----
-
 <br/>
 
 ## Visão geral do projeto
@@ -67,16 +29,10 @@
     <a href="https://www.figma.com/file/gl0fHkQgvaUfXNjuwGtDDs/ig.news?node-id=1%3A2">Layout no Figma</a>
   </h2>
 </div>
-
 <div align="center">
   <img src="github/images/ignews-home.png" alt="Logo" width="1012" height="575">  
   <img src="github/images/ignews-preview.png" alt="Logo" width="1012" height="575">  
 </div>
-
-<br/>
-
----
-
 <br/>
 
 ## Sobre o projeto
@@ -84,10 +40,6 @@
 O ig.news é uma página de noticias sobre o universo React. Os usuários poderão realizar a assinatura dos conteúdos por apenas $9.90 ao mês. Antes de realizar uma assinatura na aplicação, o usuário deverá se cadastrar através do login com github. Logo após, será possível assinar os conteúdos, onde o pagamento é feito através de cartão de crédito pela plataforma do Stripe.
 
 Caso o usuário não tenha uma assinatura de conteúdo na aplicação, ele ainda poderá ter acesso a listagem de postes, podendo fazer uma breve leitura dos postes de seu interesse, como mostrado na imagem acima.
-
-<br/>
-
----
 
 <br/>
 
@@ -101,10 +53,6 @@ As principais tecnologias utilizadas na construção deste projeto foram:
 * [Prismic CMS](https://prismic.io/)
 * [Sass CSS](https://sass-lang.com/)
 * [Axios HTTP Client](https://axios-http.com/docs/intro)
-
-<br/>
-
----
 
 <br/>
 
@@ -125,7 +73,6 @@ Para que seja possível fazer o download das depêdencias do projeto, recomendam
 * [Yarn (Recomendado para este projeto)](https://classic.yarnpkg.com/lang/en/docs/install/#debian-stable)
 * [Npm](https://nodejs.org/en/)
   
-
 ### Instalação
 
 1. Dentro da pasta do projeto, rode o comando ```yarn``` para fazendo o download da depêndencias.
@@ -147,20 +94,11 @@ stripe listen --forward-to localhost:3000/api/webhooks
 
 5. Rode o comando ```yarn dev``` para executar o projeto em seu localhost:3000.
 
-
-<br/>
-
----
-
 <br/>
 
 ## Licença
 
  O projeto ainda não contém nenhuma licença. ⚠️
-
-<br/>
-
----
 
 <br/>
 
@@ -171,8 +109,8 @@ stripe listen --forward-to localhost:3000/api/webhooks
 
 <br/>
 
-<strong align="center">A estabilidade não existe. A vida é um risco a partir do instante em que você chegou a este mundo. - Flavio Augusto</strong>
+<strong align="center">A estabilidade não existe. - Flavio Augusto</strong>
 
 <br/>
 
-<h2 align="center"><a href="#top">Voltar ao Início ⬆</a></h2>
+<h3 align="center"><a href="#top">Voltar ao Início ⬆</a></h3>
