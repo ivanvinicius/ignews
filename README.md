@@ -2,7 +2,7 @@
   <div>
     <img src="github/images/ignews-logo.png" alt="Logo" width="294" height="111">
   </div>
-  <h3 align="center">ignews | News about the React world</h3>
+  <h4 align="center">ignews | News about the React world</h4>
 </div>
 
 ## Resumo
@@ -93,6 +93,8 @@ stripe listen --forward-to localhost:3000/api/webhooks
 * [Rocketseat Education - Boosting People.](https://www.rocketseat.com.br/)
 * [Diego Fernandes - Github Profile.](https://github.com/diego3g/)
 
-<h3 align="center"><a href="#top">Voltar ao Início</a></h3>
+<br/>
+<br/>
+<h4 align="center"><a href="#top">Voltar ao Início</a></h4>
 
 <p align="right">Estabilidade não existe - Flavio Augusto</p>
