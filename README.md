@@ -1,15 +1,12 @@
-<div id="top"></div>
-<br/>
-<div align="center">
+<div id="top" align="center">
   <div>
     <img src="github/images/ignews-logo.png" alt="Logo" width="294" height="111">
   </div>
   <h3 align="center">ignews | News about the React world</h3>
 </div>
-<br/>
 
 ## Resumo
-  <br/>
+
   <ol>
     <li><a href="#visão-geral-do-projeto">Visão Geral do Projeto</a></li>
     <li><a href="#sobre-o-projeto">Sobre o Projeto</a></li>
@@ -18,30 +15,26 @@
     <li><a href="#licença">Licença</a></li>
     <li><a href="#agradecimentos">Agradecimentos</a></li>
   </ol>
-<br/>
 
 ## Visão geral do projeto
 
 <div>
-  <br/>
-  <h2 >
+  <h3 >
     <img src="github/images/figma-logo.png" alt="Logo" width="18" height="18">
     <a href="https://www.figma.com/file/gl0fHkQgvaUfXNjuwGtDDs/ig.news?node-id=1%3A2">Layout no Figma</a>
-  </h2>
+  </h3>
 </div>
+
 <div align="center">
   <img src="github/images/ignews-home.png" alt="Home">  
   <img src="github/images/ignews-preview.png" alt="preview">  
 </div>
-<br/>
 
 ## Sobre o projeto
 
 O ig.news é uma página de noticias sobre o universo React. Os usuários poderão realizar a assinatura dos conteúdos por apenas $9.90 ao mês. Antes de realizar uma assinatura na aplicação, o usuário deverá se cadastrar através do login com github. Logo após, será possível assinar os conteúdos, onde o pagamento é feito através de cartão de crédito pela plataforma do Stripe.
 
 Caso o usuário não tenha uma assinatura de conteúdo na aplicação, ele ainda poderá ter acesso a listagem de postes, podendo fazer uma breve leitura dos postes de seu interesse, como mostrado na imagem acima.
-
-<br/>
 
 ## Tecnologias utilizadas
 
@@ -54,8 +47,6 @@ As principais tecnologias utilizadas na construção deste projeto foram:
 * [Sass CSS](https://sass-lang.com/)
 * [Axios HTTP Client](https://axios-http.com/docs/intro)
 
-<br/>
-
 ## Instalação e utilização
 
 Instruções de instalação do projeto em seu computador.
@@ -67,7 +58,6 @@ Clone este repositório utilizando o comando a seguir. Lembre-se, você deve pos
 ```sh
 git clone https://github.com/ivanvinicius/ignews.git
 ```
-
 Para que seja possível fazer o download das depêdencias do projeto, recomendamos a utilização de um package mananger:
 
 * [Yarn (Recomendado para este projeto)](https://classic.yarnpkg.com/lang/en/docs/install/#debian-stable)
@@ -94,23 +84,15 @@ stripe listen --forward-to localhost:3000/api/webhooks
 
 5. Rode o comando ```yarn dev``` para executar o projeto em seu localhost:3000.
 
-<br/>
-
 ## Licença
 
  O projeto ainda não contém nenhuma licença. ⚠️
-
-<br/>
 
 ## Agradecimentos
 
 * [Rocketseat Education - Boosting People.](https://www.rocketseat.com.br/)
 * [Diego Fernandes - Github Profile.](https://github.com/diego3g/)
 
-<br/>
-
 <h3 align="center"><a href="#top">Voltar ao Início</a></h3>
-
-<br/>
 
 <p align="right">Estabilidade não existe - Flavio Augusto</p>
