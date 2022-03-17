@@ -45,7 +45,7 @@ export default async (request: NextApiRequest, response: NextApiResponse) => {
       customerId = stripeCustomer.id
     }
 
-    // Creating a new subscription
+    // Creating a new subscription on stripe
     const stripeCheckoutSession = await stripe.checkout.sessions.create({
       customer: customerId,
       payment_method_types: ['card'],
