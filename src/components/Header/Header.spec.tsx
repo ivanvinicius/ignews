@@ -24,6 +24,9 @@ describe('HEADER COMPONENT', () => {
   it('renders header correctly', () => {
     render(<Header />)
 
+    // Suggest methods to select elements (findBy, getBy, queryBy)
+    screen.logTestingPlaygroundURL()
+
     expect(screen.getByText('Home')).toBeInTheDocument()
     expect(screen.getByText('Posts')).toBeInTheDocument()
   })
