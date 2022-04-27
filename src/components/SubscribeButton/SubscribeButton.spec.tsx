@@ -46,8 +46,8 @@ describe('SUBSCRIBE BUTTON COMPONENT', () => {
     const pushMocked = jest.fn()
 
     const user = { name: 'John Doe', email: 'doe@gmail.com' }
-    const expires = '123'
-    const activeSubscription = '123'
+    const expires = 'fake-expires'
+    const activeSubscription = 'fake-active-subscription'
 
     useSessionMocked.mockReturnValueOnce({
       data: { user, expires, activeSubscription },
